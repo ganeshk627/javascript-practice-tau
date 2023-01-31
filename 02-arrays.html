@@ -5,9 +5,28 @@
     </head>
     <body>
         <script>
+            
+            const summa = [] // empty array declaration
+            console.log(summa)
             const houses = ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]
             console.log(houses)
             console.log(houses[1])
+
+            const harry = [
+                "Harry Potter",
+                7,
+                "Hedwig"
+            ]
+            console.log(harry)
+            const broom = "Thunderbolt VII";
+            harry.push(broom) // adds one element to the end of the array
+            console.log(broom , " is pushed!")
+            console.log(harry)
+            let popped = harry.pop() // removes one element from the end of the array
+            console.log(popped + " is popped!")
+            console.log(harry)
+            console.log("First item: " + harry[0])
+            console.log("Last item: " + harry[harry.length-1])
         </script>
     </body>
 </html>
